@@ -1,0 +1,44 @@
+@import "variable";
+.header-section {
+    background-image: url('/assets/images/main-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    height: 100%;
+    position: relative;
+    margin-bottom: 20rem;
+    .banner-section {
+        .navbar {
+            .right-nav-links {
+                li {
+                    margin: auto 15px;
+                    a {
+                        color: $whiteColor;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .banner-text {
+            p {
+                font-size: 70px;
+                line-height: 70px;
+                font-family: $dmSerifFont;
+                font-weight: 400;
+                color: $whiteColor;
+                margin: 90px 0 60px;
+            }
+            max-width: 500px;
+        }
+        .truck-image {
+            position: absolute;
+            top: calc(100% - 50px);
+            left: 0;
+            width: 400px;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+}

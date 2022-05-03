@@ -1,0 +1,8 @@
+.about-section .about-left p {
+  max-width: 450px;
+}
+
+.about-section .about-right {
+  margin: auto;
+  text-align: center;
+}
